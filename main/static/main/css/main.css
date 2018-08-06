@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+    font-family: "Gothic A1", serif;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+td {
+    padding: 0 10px 0 10px;
+}
+
+ul li a {
+    font-family: "Roboto", sans-serif;
+}
+
+.carousel-inner {
+    max-height: 550px;
+}
+
+/* mobile 
+@media only screen and (max-width: 768px){
+    #carousel {
+        max-width: 600px;
+    }
+} */
