@@ -1,0 +1,53 @@
+/* large screens */
+@media only screen and (min-width: 900px){
+    .carousel-inner > .carousel-item {
+        height: 500px;
+    }
+}
+
+/* medium screens */
+@media only screen and (max-width: 900px){
+    .carousel-inner > .carousel-item {
+        height: 300px;
+    }
+}
+
+/* small screens */
+@media only screen and (max-width: 550px){
+    .carousel-inner > .carousel-item {
+        height: 200px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 350px){
+    .carousel-inner > .carousel-item {
+        height: 150px;
+    }
+}
+
+.carousel-inner > .carousel-item > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%. -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-height: 720px;
+    width: auto;
+}
+
+.carousel-item h2 {
+    font-size: 4rem;
+    color: white;
+    font-family: "Gothic A1";
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
