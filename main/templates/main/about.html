@@ -1,0 +1,20 @@
+{% extends "main/header.html" %}
+
+<!--load static content to reference images-->
+{% load static %}
+
+{% block title %}About Us{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/css/about.css' %}">
+{% endblock %}
+
+<!--Body-->
+{% block body %}
+<div class="double">
+    <div class="text">
+        <h2>About Us</h2>
+        <p>We are FRC Team 7034, To Be Determined. Founded in the 2018 season, we have already began to spread science and technology to our school and community. In the 2018 FIRST Power Up season, we fought through the Pacific Northwest District Qualifiers, and attended the 2018 World Championship in Houston, TX. Here we won the Rookie Inspiration Award for the Hopper Division.
+    </div>
+</div>
+{% endblock %}
