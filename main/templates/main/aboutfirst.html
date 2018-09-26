@@ -1,0 +1,21 @@
+{% extends "main/header.html" %}
+
+<!--load static content to reference images-->
+{% load static %}
+
+{% block title %}About First{% endblock %}
+
+<!--Body-->
+{% block body %}
+<div class="container">
+    <div class="row">
+		<div class="col">
+            <h2 class="text-center">About FIRST</h2>
+			<p>For Inspiration and Recognition of Science and Technology (FIRST) is an international youth organization that operates the FIRST Robotics Competition, FIRST LEGO League, FIRST LEGO League Jr., and FIRST Tech Challenge competitions. Their motto "to create a world where science and technology are celebrated... where young people dream of becoming science and technology heroes" inspires many to compete in tournaments every year -- including our West Linn High School FRC team. </p>
+		</div>
+	    <div class="col">
+			<img class="d-block w-100 img-fluid" src="{% static 'main/images/kigerbot.jpg' %}" alt="slide 3">
+		</div>
+    </div>
+</div>
+{% endblock %}

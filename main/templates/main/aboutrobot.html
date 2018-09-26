@@ -1,0 +1,21 @@
+{% extends "main/header.html" %}
+
+<!--load static content to reference images-->
+{% load static %}
+
+{% block title %}About Our Robots{% endblock %}
+
+<!--Body-->
+{% block body %}
+<div class="container">
+    <div class="row">
+		<div class="col">
+            <h2 class="text-center">The Determinator</h2>
+			<p>Vroom vroom skkrt this robot is the best it did cool stuf 2018 season learn more here</p>
+		</div>
+	    <div class="col">
+			<img class="d-block w-100 img-fluid" src="{% static 'main/images/kigerbot.jpg' %}" alt="slide 3">
+		</div>
+    </div>
+</div>
+{% endblock %}
