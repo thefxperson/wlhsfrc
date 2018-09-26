@@ -1,0 +1,10 @@
+.double {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    justify-items: center;
+}
+
+.text {
+    grid-column: 1;
+}
