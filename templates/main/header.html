@@ -36,7 +36,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     
     <!--logo and header--> 
-    <a class="navbar-brand" href={% url "index" %}><table><tbody><tr>
+    <a class="navbar-brand" href="{% url 'index' %}"><table><tbody><tr>
         <td><img id="logo" src="{% static 'main/images/logo-small.png' %}" alt="logo"></td>
         <td><h1 id="heading">7034 | To Be Determined</h1></td>
     </tr></tbody></table></a>
@@ -70,7 +70,7 @@
                 <a class="nav-link" href="#">Calendar</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Log In</a>
+                <a class="nav-link" href="/admin/">Log In</a>
             </li>
         </ul>
     </div>
